@@ -1,25 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package recordNanograph.sovellusLogiikka;
 
+import java.util.ArrayList;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import recordNanograph.SovellusLogiikka.Album;
 
-/**
- *
- * @author johanblo@cs
- */
 public class AlbumTest {
+    private Album album;
     
     public AlbumTest() {
+
     }
     
     @BeforeClass
@@ -38,9 +32,21 @@ public class AlbumTest {
     public void tearDown() {
     }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+    @Test
+    public void correctAlbumTitle(){
+        
+        String albumTitle = "TestRecord";
+        this.album = new Album(albumTitle);
+        assertEquals(this.album.getAlbumTitle(),albumTitle);
+        
+    }
+    
+//    @Test
+//    public void correctTrackListAdding(){
+//        
+//        this.album.addTrackList("TestTrack");
+//        ArrayList<String> testTracklist = this.album.getTrackList();
+//        assertEquals(testTracklist.get(testTracklist.size()), "TestTrack");
+//        
+//    }
 }

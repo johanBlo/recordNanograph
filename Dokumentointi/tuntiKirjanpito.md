@@ -15,4 +15,6 @@ Luonut GenMyModel nimisessä UML mallittamis ohjelmistossa määrittelyvaiheen l
 Lisäys ProjectinKuvausJaRakenne.md tiedostoon ohjelmasuunnitelman laajennus.
 Aloittanut sovelluslogiikan luomisen.  
 
-
+20.03.2014
+16:15 - 18:15
+Luonnut pari komento sekä niiden suoritus mainLoop classissa. Luonnut alustavan määrittelyvaiheen luokkakaavion.

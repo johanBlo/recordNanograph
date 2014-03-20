@@ -41,7 +41,8 @@
                 <configuration>
                     <instrumentation>
                         <includes>
-                            <include>recordNanograph.*.class</include>
+                            <include>recordNanograph/Main.class</include>
+                            <include>recordNanograph/SovellusLogiikka/*.class</include>
                         </includes>
                     </instrumentation>
                 </configuration>

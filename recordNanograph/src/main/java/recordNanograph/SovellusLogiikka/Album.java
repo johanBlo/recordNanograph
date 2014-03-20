@@ -13,8 +13,31 @@ public class Album {
         
         this.albumTitle = albumTitleInput;
         this.albumTrackList = new TrackList(this.lukija);
-        this.albumTrackList.addTracks();
+
+    }
+    
+    public void addTrackList(){
         
+        this.albumTrackList.addTracks();
+    
+    }
+    
+    public void addTrackList(String TrackTitleIn){
+        
+        this.albumTrackList.addTracks(TrackTitleIn);
+        
+    }
+    
+    public ArrayList<String> getTrackList(){
+        
+        return this.getTrackList();
+    
+    }
+    
+    public String getAlbumTitle(){
+        
+        return this.albumTitle;
+    
     }
        
 }

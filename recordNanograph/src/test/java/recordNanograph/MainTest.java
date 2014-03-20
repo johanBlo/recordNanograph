@@ -1,26 +1,33 @@
+/* MITÄ TÄMÄ TESTI ON? Voiko näitä poistaa vai pitääkö opetella? */
+/* Main luokan normaalit JUnit testit MainTest02.java:ssa */
+
 package recordNanograph;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-public class AppTest 
+public class MainTest 
     extends TestCase
 {
     
-    public AppTest( String testName )
+    public MainTest( String testName )
     {
         super( testName );
     }
 
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite( MainTest.class );
     }
 
 
     public void testApp()
     {
+             
         assertTrue( true );
     }
+    
+    
+   
 }
