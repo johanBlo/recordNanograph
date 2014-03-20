@@ -4,6 +4,9 @@ Aihe:   Kevyt vinyylilevykokoelman kirjasto-ohjelma haku, lisäys sekä
 	internetissä. Ohjelma käyttää helppokäyttöistä graafista
 	käyttöliittymää sekä sen laajennut mahdollisuudet ovat monet esim.
 	muiden tallennusvalineiden kirjanpito sekä niiden digitalisointi.		
+        <Lisäys 20.03.2014>
+	Ohjelmaan liitetään myös miditiedosto arkistointi ominaisuus sekä
+	Laajennus mahdollisuuksiin kuuluu myös digitalisoitujen levyjen kuuntelu.
 
 Käyttäjät: Kirjautunut käyttäjä sekä ylläpitäjä
 

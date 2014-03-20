@@ -9,5 +9,10 @@ Aloittanut tuntikirjandon, alkeellisen projektikuvauksen sekä luonnut dokumento
 18:05 - 18:50
 Päivittänyt projektin kuvauksen sekä rakennetiedoston ensimmäisen deadline:in vaatimuksia täyttäväksi.
 
+20.03.2014
+12:10 - 15:30
+Luonut GenMyModel nimisessä UML mallittamis ohjelmistossa määrittelyvaiheen luokkakaavion projektille.
+Lisäys ProjectinKuvausJaRakenne.md tiedostoon ohjelmasuunnitelman laajennus.
+Aloittanut sovelluslogiikan luomisen.  
 
 
